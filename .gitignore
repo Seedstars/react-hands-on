@@ -9,8 +9,11 @@
 \#*
 
 # built files (no need to put in git)
-www/
+1.Initial/www/
+2.Design/www
+2.Design/src/bower_components/
 
 # Node modules
-node_modules/
+1.Initial/node_modules/
+2.Design/node_modules/
 npm-debug.log

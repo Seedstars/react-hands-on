@@ -11,18 +11,12 @@ gulp.task('browserify', function() {
         .pipe(gulp.dest('www/js'));
 });
 
-
-gulp.task('img', function () {
-    return gulp.src(['src/img/**/*'])
-        .pipe(gulp.dest('www/img'));
-});
-
 gulp.task('html', function () {
     return gulp.src(['src/*html'])
         .pipe(gulp.dest('www/'));
 });
 
-gulp.task('default',['browserify', 'img', 'html']);
+gulp.task('default',['browserify', 'html']);
 
 gulp.task('watch', function() {
     gulp.watch('src/**/*.*', ['default']);

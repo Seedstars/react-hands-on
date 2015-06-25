@@ -1,0 +1,16 @@
+{
+  "name": "reac-hands-one-app",
+  "version": "1.0.0",
+  "homepage": "git://github.com/seedstars/react-hands-on.git",
+  "license": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ratchet": "2.0.2"
+  }
+}
