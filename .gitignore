@@ -12,8 +12,12 @@
 1.Initial/www/
 2.Design/www
 2.Design/src/bower_components/
+3.Full/www
+3.Full/src/bower_components/
 
 # Node modules
 1.Initial/node_modules/
 2.Design/node_modules/
+3.Full/node_modules/
+
 npm-debug.log
